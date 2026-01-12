@@ -6,16 +6,11 @@ import Carousel_component from './component/Carousel_component'
 
 function App() {
   
-  return (
-    <>
-      <BrowserRouter>
-       <Routes>
-          <Route path="/" element = {<Main/>}></Route>
-          <Route path = "/carousel" element={<Carousel_component/>}></Route>
-           
-        </Routes> 
-     </BrowserRouter>
-    </>
+ return (
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/carousel" element={<Carousel_component />} />
+    </Routes>
   )
 }
 
