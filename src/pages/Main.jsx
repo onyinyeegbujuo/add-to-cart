@@ -200,7 +200,7 @@ const Main = () => {
         <main className="flex lg:flex-row flex-col lg:gap-24 gap-0.5">
           <div>
             {/* MAIN IMAGE */}
-            <div className="lg:w-80 lg:h-80 relative w-100 h-100">
+            <div className="lg:w-80 lg:h-80 relative w-90 h-100">
               <div
                 onClick={addToCart}
                 style={{
@@ -209,11 +209,11 @@ const Main = () => {
                 className="lg:w-full lg:h-full lg:rounded-2xl bg-center bg-cover duration-500 w-90 h-90"
               ></div>
               {/*Left arrow */}
-              <div className="absolute top-1/2 left-75 -translate-y-1/2 rounded-full p-2 bg-white cursor-pointer shadow-md text-2xl block lg:hidden">
+              <div className="absolute top-1/2 left-80 -translate-y-1/2 rounded-full p-2 bg-white cursor-pointer shadow-md text-2xl block lg:hidden">
                 <FaChevronRight onClick={prevSlide} />
               </div>
               {/*Right arrow */}
-              <div className="absolute top-1/2 right-85 -translate-y-1/2 rounded-full p-2 bg-white cursor-pointer shadow-md text-2xl block lg:hidden">
+              <div className="absolute top-1/2 right-80 -translate-y-1/2 rounded-full p-2 bg-white cursor-pointer shadow-md text-2xl block lg:hidden">
                 <FaChevronLeft onClick={nextSlide} />
               </div>
             </div>
